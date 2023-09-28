@@ -1,1 +1,40 @@
+Both assignments are related to fixed sized hash tables. The hash tables store string (str) values. 
+The hash value (slot) is calculated with the following hash function for strings:
 
+procedure hash(data):
+    sum = 0
+    for i = 0 to N-1 do
+        sum += ascii(data[i])
+    return sum % X
+
+where N is the length of the string (data), % is the symbol for the mod operation 
+and X is a parameter of the hash table. The ascii value of a character can be calculated with the function ord in Python.
+
+
+**Assignment 4.1: Linear Probing (4 points)**
+
+Implement a fixed sized hash table in Python that uses linear probing for collision resolution. 
+Create a class HashLinear which has the table size M as a input value when a object is created. 
+The class has following methods:
+
+    insert(data: str): inserts data into the hash table, ignores duplicates
+    delete(data: str): removes data from the hash table
+    print(): prints the content of the hash table
+
+For hashing use X=M.
+
+
+
+
+**Assignment 4.1: Bucket Hashing (4 points)**
+
+Implement a fixed sized hash table in Python that uses bucket hashing for collision resolution. 
+Create a class HashBucket which has the table size (M) and number of equal sized buckets (B) as the input values 
+when a object is created. The hash table has a overflow array of size (M). The class has the following methods:
+
+    insert(data): inserts data in the hash table, ignores duplicates
+    delete(data): removes data from the hash table
+    print(): prints the content of the hash table and the overflow array 
+
+For hashing use (X = B). 
+Filling the buckets starts from the top and overflow values are appended to the end of the overflow array.
