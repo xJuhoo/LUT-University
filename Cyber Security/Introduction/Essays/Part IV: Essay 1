@@ -1,0 +1,14 @@
+One of the goals for modern malware is to create botnets. Botnet is essentially a (large) set of computers that can be controlled remotely by a hijacker. 
+Write a short essay (250 words) on how botnets can be used for malicious purposes. Provide at least 3 scenarios.
+
+- When talking about a large set of computers being controlled remotely one the possible malicious purposes is definitely cryptocurrency mining which actually requires a significant amount of computational power. 
+  This means that the attackers generate free profit to themselves at the same time as not only do they slow down the computers connected to the botnet but also create huge electricity bills.
+
+- Another common thing where botnets can be used is spamming and data phishing because with a large amount of computers,
+  the scale of how many spam emails can be sent is probably around millions, each of them containing links or downloadable softwares for the attacker 
+  to get the receiver's personal information or credentials leading most likely to financial losses or even identity thefts. 
+  Even though these scams are known to pretty much everyone, they are still highly effective because a lot of people will fall for them.
+
+- Denial-of-service attack is a third scenario where botnets could be powerful. 
+  The idea of DoS is slowing down a website or a network by targeting it with so much traffic (requests) that it becomes practically unable to serve or be used by it's intended users or target group. 
+  So with the usage of botnets it would be possible to make some websites unusable and forcing them to shut down.
