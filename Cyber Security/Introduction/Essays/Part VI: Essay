@@ -1,0 +1,20 @@
+Substitution cipher is a generalization of Caesar cipher, where individual letters are mapped to other letters. This mapping can be almost anything except one should be able to invert it, so that the message can be decrypted. 
+Caesar cipher is a special case of substitution cipher where individual letters are shifted by a fixed amount. Despite having a very large key space, this cipher is not secure, for example, if the language of the original message is known. Explain why.
+In addition, suggest some simple modification to the substitution cipher so that the attack that you just described no longer works. Note that the new cipher doesn't have to be invulnerable to more sophisticated attacks.
+
+Your essay should be around 300 words. 
+
+- The first vulnerability that comes to my mind is the fact that there are only 26 letters and therefore only 25 possible shift values. 
+  The attackers can easily use a so called brute-force mechanism (i.e. trying every single combination of values) because even though going through 25 options can take a while,
+  it's still only 25 options and most likely the correct shift will be found in like the first 15 attempts. 
+  This would also work perfectly even if the language of the message was not known to the attacker.
+
+- Now considering the option that the language is known already, a method called frequency analysis can be used and I believe that's how some famous encrypted messages have been decrypted. 
+  In English, for instance, the most common letter is "e" which is usually followed by letters such as "t" or "a". The letter "t" is very easy to find considering the amount of words used such as "the" or "that".
+
+- When it comes to making a simple and easy-to-understand solution that straight away increases the security of the substitution cipher a method called "randomized shifting" should be used, 
+  where for each of the letters in the message, rather than setting a base shift value for all letters, a random shift is used instead. 
+  This allows for the letters to be encrypted uniquely by for example using a single key to generate the shift values for each letter. 
+
+- This method prevents the attackers for using the brute-force mechanism, because instead of guessing a correct shift out of 26 letters for the whole encrypted text, 
+  it now needs to be done to every single letter one by one. However, I believe that the frequency analysis of the letters and a handful of other more evolved methods would still break the code easily.
