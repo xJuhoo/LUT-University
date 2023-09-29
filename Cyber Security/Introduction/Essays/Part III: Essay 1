@@ -1,0 +1,24 @@
+Read the article on avoiding security flaws. Users are often considered to be the weakest link in cyber security. 
+Propose your own top-5 list on how to reduce the human factor when dealing with cyber security (in about 300 words).
+
+- It comes as no surprise that users are considered to be the weakest link simply because the lack of awareness. 
+  In addition to that, humans are tend to make mistakes whether it means clicking malicious links, downloading files from the web or oversharing private information without verifying the receiver. 
+  Here's my top-5 list:
+
+1. Proper education and training: Might be obvious but also very important. The same way that school educates students, should companies educate their staff members. 
+  Society should make sure that there are some type of cybersecurity awareness programs available for everyone.
+
+2. Multi-factor authentication: MFA is already broadly used to access critical data through an additional layer of security on top of passwords, 
+  making it much harder for attackers to get access even if the user's password is known.
+
+3. Access control: This means that whether it's about users on a website or employees in a company, the users should not have access to information that does not belong to them. 
+  This restricts the amount of cases where a user downloads any kind of secret information and then it gets leaked or lost.
+
+4. Automation: When it comes to security measures that must constantly be updated and upgraded, automation should be used. 
+  It removes the need for users to keep up with the evolution of measures like antivirus softwares, firewalls or other detection systems. 
+  Identification and reportage of threads would then also be automated.
+
+5. Cybersecurity policies: I am not a good example on this one because I rarely read the terms of service and policies of any application 
+  but still they should exist and they should be very clear, comprehensive and detailed. 
+  The policies should for example tell users how and in which way their private data is being used and if it's being shared to third parties. 
+  This way users know what kind of information should not be shared. 
