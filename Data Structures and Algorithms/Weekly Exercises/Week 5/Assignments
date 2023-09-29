@@ -1,0 +1,36 @@
+**Assignment 5.1: Binary Search Tree (3 points)**
+
+Implement a binary seach tree in Python. The tree stores integers (int) only.
+
+Create following classes:
+
+    Node: stores the integer value (int) and links to its left and right child
+    BST: maintains the binary search tree built using Node objects.
+
+Create following methods for class BTS:
+
+    insert(key: int): inserts a key to the search tree, ignores duplicates.
+    search(key: int): searches key from the search tree and returns boolean True if found, False otherwise.
+    preorder(): prints the content of the search tree in preorder.
+    remove(key: int): removes key from the search tree, maintains the BST property.
+
+
+
+
+**Assignment 5.2: More Traversals (3 points)**
+
+Update your class BST with three new traversal methods:
+
+    postorder(): prints the content of the search tree in postorder.
+    inorder(): prints the content of the search tree in inorder.
+    breadthfirst(): prints the content of the search tree in breadth-first-order.
+
+Breadth-First enumeration presents the nodes of the search tree level by level (or depth), unlike other impemented methods which traverses the left subtree first before the right subtree.
+
+
+
+
+**Assignment 5.3: Mirroring The BST (3 points)**
+
+Implement a new method mirror() to your class BST. The method mirrors the search tree along the root node, i.e. each nodes’ left and right child nodes will swap places.
+While traversal methods can remain as they are, update methods insert, search and remove so that the BST property remains whether the tree is mirrored or not.
