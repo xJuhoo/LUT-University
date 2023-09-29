@@ -1,0 +1,1 @@
+This folder contains the solutions for the quizzes and programming exercises presented in the section "Securing Software". It was possible to complete this section without writing any essays at all, resulting in 116 points (115 required to pass the course) so obviously I didn't write the essays :)
