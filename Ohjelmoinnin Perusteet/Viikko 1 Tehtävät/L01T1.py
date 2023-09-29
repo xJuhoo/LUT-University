@@ -1,0 +1,1 @@
+print("Ensimmäinen Python-ohjelmani!")

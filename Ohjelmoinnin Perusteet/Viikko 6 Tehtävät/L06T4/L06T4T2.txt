@@ -1,0 +1,3 @@
+Analyysin tulokset ovat seuraavat:
+Datan pienin arvo on 10000.
+Datan suurin arvo on 12345.

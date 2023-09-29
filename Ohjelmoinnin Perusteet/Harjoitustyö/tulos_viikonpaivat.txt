@@ -1,0 +1,8 @@
+Viikonpäivä;Keskimääräinen hinta snt/kWh
+Maanantai;8.3
+Tiistai;8.8
+Keskiviikko;8.3
+Torstai;7.5
+Perjantai;7.0
+Lauantai;5.5
+Sunnuntai;5.1
