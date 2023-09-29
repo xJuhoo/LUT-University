@@ -1,0 +1,129 @@
+** Part I: Quiz 1 - Scanning **
+
+- Download python script and execute it with python3 portscan_server_obf.py. This will start a server at a random port between 20050 and 20150.
+  Use your newly implemented port scanner to scan the ports between 20050 and 20150 with the localhost (your computer) as an address.
+  The port contains a secret message. What is it about?
+
+** ANSWER TO QUIZ 1 **
+- "Best Act Ever" by Internet users at the MTVH Europe Music Awards 2008, aka. Never gonna give you up.
+
+
+
+** Part I: Quiz 2 - On the protocol of a service **
+
+- Download python script and execute it with python3 quest_server_obf.py. This will start a server at port 31338.
+  The protocol starts with you writing the message "HMM?" to the server followed by enter. Don't forget the question mark. Determine the rest of the protocol -- you will likely want to use telnet here.
+  Note that some telnet clients will print back what you are typing and some telnet clients (like windows 10 telnet) may not.
+  When following the correct protocol, how many messages do you receive from the server? You may assume that the server writes "Incorrect protocol. Bye." if you do not follow the correct protocol.
+
+** ANSWER TO QUIZ 2 **
+- 3
+
+
+
+** Part II: Quiz 1 - The Byteless are coming to town! **
+
+- The Byteless, your favourite rock band is concluding their world tour! Their tour manager has indicated that the 100 fastest fans can sign up to the conclusion concert at the awesome site. It seems, however, that the concert is already fully booked. You want to get in -- figure out a way to do it.
+  Each person who signs up to the concert receives a unique key that can be used to retrieve the backstage passes. What is your key?
+
+** ANSWER TO QUIZ 1 **
+- I get byte with a little help from my friends.
+
+
+
+** Part IV: Quiz 1 - Careless Copying **
+
+- Assume that you have C code with an uint16_t type variable and that you wrote 160 bits into it with a careless memcpy operation. The memcpy is documented as follows:
+
+  DESCRIPTION
+  The memcpy() function copies n bytes from memory area src to memory area dest. The memory areas must not overlap. Use memmove(3) if the memory areas do overlap.
+
+  What may happen directly due to this mishap? Note that depending on your reasoning, there may be more than one correct answer!
+
+** ANSWER TO QUIZ 1 **
+All of the following answers are correct:
+- Bits that do not fit get discarded
+- Segmentation fault
+- Some local variables get overwritten
+- The process execution flow may change
+- Something that is located directly after the variable is overwritten
+
+
+
+** Part IV: Quiz 2 - Point Taken **
+
+- What types of effects could overwriting the instruction pointer lead to?
+
+** ANSWER TO QUIZ 2 **
+All of the following answers are correct:
+- The program may start executing malicious code
+- The values of interal values can possibly be leaked
+- Denial of Service
+- Fooling the system to executing code without privileges
+- Nothing
+
+
+
+** Part IV: Quiz 3 - Binary Exploit Mitigation Strategies **
+
+- What types of mitigation strategies do modern operation systems on a home computer employ? 
+  Note that there may again be more than one correct answer.
+
+** ANSWER TO QUIZ 3 **
+All of the following answers are correct:
+- Defining areas in memory as non-executable
+- Randomizing the memory layout during process invocation
+- Stack canaries
+
+
+
+** Part VI: Quiz 1 -Is Source Code Important in Data Dlow Analysis **
+
+** ANSWER TO QUIZ 1 **
+- Less important than run-time analysis
+
+
+
+** Part VI: Quiz 2 - "What", "How exactly", "Where" Are Key Questions, but... **
+
+- "What", "How exactly", "Where" are the key questions, but what is the one key question that was not discussed above?
+
+** ANSWER TO QUIZ 2 **
+- Why does this component do this in the first place?
+
+
+
+** Part VI: Quiz 3 - If processes are boundaries then what about threads... **
+
+- If processes are boundaries then what about threads. Are threads security boundaries?
+
+** ANSWER TO QUIZ 3 **
+All of the following answers are correct:
+- No, if the thread exists within a process
+- No, but forking is better anyway
+
+
+
+** Part VI: Quiz 4 - Different Protocols Terminate At Different Points... **
+
+- Sometimes different protocols terminate at different points.
+  Which of the following are true (from the view-point of a browser)?
+
+** ANSWER TO QUIZ 4 **
+All of the following answers are correct:
+- HTTP terminates on corporate firewalls and proxies that do content filtering
+- TLS stops at the corporate load balancer but the HTTP passes through
+- HTTP stops at the web server
+
+
+
+** Part VI: Quiz 5 - Tainting and Sensitive Data **
+
+- So far, we have only talked about untrusted information coming to the system. 
+  Would tainting help with sensitive data that should not leave the system?
+
+** ANSWER TO QUIZ 5 **
+All of the following answers are correct:
+- Maybe
+- Yes
+
