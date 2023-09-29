@@ -1,0 +1,15 @@
+Traditionally, routers do not inspect networks packets above transport layer. 
+However, in deep packet inspection a router studies application layer payloads, and makes decisions based on the available information. 
+Write a short essay (250 words) describing at least 2 different scenarios where a deep packet inspection can be used. 
+
+- First and foremost, deep packet inspection (DPI) is an advanced network analysis technique that can be used to examine and manage network traffic. 
+  For example, DPI can be used for blocking, re-routing or rate-limiting incoming traffic. Examination includes things like analyzing the network usage or troubleshooting performance issues. 
+  Here are two possible scenarios for DPI usage:
+
+- Because DPI allows to analyze the application layer and it's data packets, it can be used very effectively to detect any kind of suspicious acts such as malware or viruses. 
+  So it works as in network security. For example, if a router observes suspicious patterns in HTTP traffic, the packets can be classified and then either blocked or redirected, and most importantly reported. 
+  In this method, various classifications might be found and sent for further analysis.
+
+- Another useful scenario for DPI is so called quality of service (QoS) management which is useful and also needed in situations where network resources are shared among multiple applications and users. 
+  DPI's role is to maximize network performance and maintain a high-quality user experience, a feature that most people are always looking for. 
+  Routers are able to prioritize traffic according to the nature of the application or service by looking at application-specific data contained within the packets. 
