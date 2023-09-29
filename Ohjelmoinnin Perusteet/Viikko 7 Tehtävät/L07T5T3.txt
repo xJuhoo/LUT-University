@@ -1,0 +1,3 @@
+Auton merkki;Auton hinta
+Volvo;34567
+Audi;14563

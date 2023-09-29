@@ -1,0 +1,5 @@
+Analyysin tulokset ovat seuraavat:
+Datan pienin arvo on 1723.
+Datan suurin arvo on 10127.
+Datan summa on 175019.
+Datan keskiarvo on 5646.0.

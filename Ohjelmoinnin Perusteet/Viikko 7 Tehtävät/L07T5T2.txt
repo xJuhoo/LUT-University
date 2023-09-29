@@ -1,0 +1,5 @@
+Auton merkki;Auton hinta
+Lada;3000
+Audi;30000
+Volvo;15000
+Valtra;32444

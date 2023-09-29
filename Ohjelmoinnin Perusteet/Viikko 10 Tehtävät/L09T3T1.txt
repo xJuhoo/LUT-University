@@ -1,0 +1,9 @@
+Tunnistettiin 8 automerkkiä ja 15 autoa:
+Kia: 2 autoa
+Mazda: 3 autoa
+Mercedes-Benz: 1 auto
+Opel: 1 auto
+Renault: 2 autoa
+Seat: 1 auto
+Toyota: 1 auto
+Volkswagen: 4 autoa

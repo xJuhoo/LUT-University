@@ -1,0 +1,102 @@
+[
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Tytt\u00f6, sin\u00e4 olet... ",
+        "Tekija": "P\u00e4\u00e4skysaari, Jenni ",
+        "ISBN": "9789511202851",
+        "Varauksia": 145,
+        "Niteita": 56,
+        "Lisakappaleita": 0,
+        "VarauksiaPerNide": 2.6
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Arvoitus nimelt\u00e4 Margo ",
+        "Tekija": "Green, John ",
+        "ISBN": "9789510411759",
+        "Varauksia": 145,
+        "Niteita": 121,
+        "Lisakappaleita": 0,
+        "VarauksiaPerNide": 1.2
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Ufoja Lahdessa : kokoelma ",
+        "Tekija": "Turunen, Marko ",
+        "ISBN": "9789525915167",
+        "Varauksia": 6,
+        "Niteita": 2,
+        "Lisakappaleita": 0,
+        "VarauksiaPerNide": 3.0
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Vapaa kuin lintu : Emil Nervanderin el\u00e4m\u00e4 ",
+        "Tekija": "Valkeap\u00e4\u00e4, Leena ",
+        "ISBN": "9789525533200",
+        "Varauksia": 6,
+        "Niteita": 2,
+        "Lisakappaleita": 0,
+        "VarauksiaPerNide": 3.0
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Urheilijan Taivas+helvetti : paras versio itsest\u00e4si ",
+        "Tekija": "H\u00e4m\u00e4l\u00e4inen, Karo ",
+        "ISBN": "9789526794693",
+        "Varauksia": 144,
+        "Niteita": 15,
+        "Lisakappaleita": 18,
+        "VarauksiaPerNide": 4.4
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Ihminen : fysiologia ja anatomia ",
+        "Tekija": "",
+        "ISBN": "9789510346556",
+        "Varauksia": 139,
+        "Niteita": 64,
+        "Lisakappaleita": 1,
+        "VarauksiaPerNide": 2.1
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "The one thing : the surprisingly simple truth behind extraordinary results ",
+        "Tekija": "Keller, Gary   ",
+        "ISBN": "9781848549258",
+        "Varauksia": 18,
+        "Niteita": 6,
+        "Lisakappaleita": 0,
+        "VarauksiaPerNide": 3.0
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Blod p\u00e5 sn\u00f6 ",
+        "Tekija": "Nesb\u00f8, Jo ",
+        "ISBN": "9789164204349",
+        "Varauksia": 16,
+        "Niteita": 15,
+        "Lisakappaleita": 0,
+        "VarauksiaPerNide": 1.1
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Reaktio : lukion kemia. 3 : Reaktiot ja energia ",
+        "Tekija": "",
+        "ISBN": "9789526303239",
+        "Varauksia": 18,
+        "Niteita": 2,
+        "Lisakappaleita": 0,
+        "VarauksiaPerNide": 9.0
+    },
+    {
+        "py/object": "__main__.TIEDOT",
+        "Nimike": "Girlboss ",
+        "Tekija": "Amoruso, Sophia ",
+        "ISBN": "9780241217931",
+        "Varauksia": 18,
+        "Niteita": 1,
+        "Lisakappaleita": 2,
+        "VarauksiaPerNide": 6.0
+    }
+]

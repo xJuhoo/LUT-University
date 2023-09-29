@@ -1,0 +1,5 @@
+Analyysin tulokset ovat seuraavat:
+Datan pienin arvo on 10000.
+Datan suurin arvo on 12345.
+Datan summa on 22345.
+Datan keskiarvo on 11172.0.

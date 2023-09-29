@@ -1,0 +1,4 @@
+Joukkkue;Kalalaji;Pituus[cm]
+Hara;Hauki;62,5
+Tyhjän pyytäjät;Lahna;26,5
+Kalaveljet;Ahven;21,5

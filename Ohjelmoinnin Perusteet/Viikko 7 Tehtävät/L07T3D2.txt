@@ -1,0 +1,13 @@
+Joukkkue;Kalalaji;Pituus[cm]
+Hara;Hauki;62,5
+Hara;Särki;21,5
+Hara;Ahven;22
+Hara;Pasuri;16,5
+Tyhjän pyytäjät;Hauki;40,5
+Tyhjän pyytäjät;Lahna;26,5
+Tyhjän pyytäjät;Särki;16,5
+Tyhjän pyytäjät;Ahven;10,5
+Kalaveljet;Ahven;21,5
+Kalaveljet;Lahna;22
+Kalaveljet;Särki;17
+Kalaveljet;Salakka;14,5
