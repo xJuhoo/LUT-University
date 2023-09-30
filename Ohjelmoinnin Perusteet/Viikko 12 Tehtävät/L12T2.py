@@ -1,19 +1,3 @@
-######################################################################
-# CT60A0203 Ohjelmoinnin perusteet
-# Tekijä: Juho Rekonen
-# Opiskelijanumero:441410
-# Päivämäärä: 28.11.2022
-# Kurssin oppimateriaalien lisäksi työhön ovat vaikuttaneet seuraavat
-# lähteet ja henkilöt, ja se näkyy tehtävässä seuraavalla tavalla:
-#
-# Mahdollisen vilppiselvityksen varalta vakuutan, että olen tehnyt itse
-# tämän tehtävän ja vain yllä mainitut henkilöt sekä lähteet ovat
-# vaikuttaneet siihen yllä mainituilla tavoilla.
-######################################################################
-# Tehtävä L12T2.py
-
-# eof
-
 def kysyLuku(kehote):
     luku = input("Anna " + kehote + " binaariluku: ")
     return luku
