@@ -1,19 +1,3 @@
-######################################################################
-# CT60A0203 Ohjelmoinnin perusteet
-# Tekijä: Juho Rekonen
-# Opiskelijanumero:441410
-# Päivämäärä: 12.12.2022
-# Kurssin oppimateriaalien lisäksi työhön ovat vaikuttaneet seuraavat
-# lähteet ja henkilöt, ja se näkyy tehtävässä seuraavalla tavalla:
-#
-# Mahdollisen vilppiselvityksen varalta vakuutan, että olen tehnyt itse
-# tämän tehtävän ja vain yllä mainitut henkilöt sekä lähteet ovat
-# vaikuttaneet siihen yllä mainituilla tavoilla.
-######################################################################
-# Tehtävä L14T4.py
-
-# eof
-
 import sys
 import random
 
