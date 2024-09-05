@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises: Week 2</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Creating the table -->
+     <table id="datatable" border="1px">
+
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Admin</th>
+            <th>Image</th>
+        </tr>
+
+        <tr>
+            <td>Juho</td>
+            <td>juho@gmail.com</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Roni</td>
+            <td>roni@gmail.com</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Jesse</td>
+            <td>jesse@gmail.com</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+     </table>
+    <br>
+
+     <!-- Creating the form -->
+      <form>
+        <label for="username">Username :</label>
+        <input type="text" id="input-username"><br>
+
+        <label for="email">Email :</label>
+        <input type="text" id="input-email"><br>
+
+        <label for="checkAdmin">Admin :</label>
+        <input type="checkbox" id="input-admin"><br>
+
+        <label for="file">Select an Image :</label>
+        <input type="file" id="input-image" accept="image/"><br>
+
+        <button id="submit-data">Submit</button><br><br>
+      </form>
+
+      <button id="empty-table">Clear</button>
+
+</body>
+</html>
