@@ -1,0 +1,57 @@
+/* Styling the body */
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Table data cells */
+td {
+    padding: 6px;
+    border-bottom: 1px solid gray;
+}
+
+/* Table header */
+th {
+    background-color: #b7d0ff;
+    font-weight: bold;
+    padding: 12px 0px 12px 6px;
+    border-bottom: 2px solid gray;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    table-layout: fixed;
+}
+  
+/* Styling the div and the header*/
+.center {
+    margin: auto;
+    padding: 60px;
+    width: 60%;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Styling the even / odd rows using classes */
+.even {
+    background-color: #f2f2f2;
+}
+
+.odd {
+    background-color: #ffffff;
+}
+
+/* Styling the Employment-% rows using classes */
+.over {
+    background-color: #abffbd;
+}
+
+.under {
+    background-color: #ff9e9e;
+}
