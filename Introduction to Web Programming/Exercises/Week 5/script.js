@@ -3,16 +3,20 @@ const secondUrl = "https://statfin.stat.fi/PxWeb/sq/4bb2c735-1dc3-4c5e-bde7-2165
 const thirdUrl = "https://statfin.stat.fi/PxWeb/sq/944493ca-ea4d-4fd9-a75c-4975192f7b6e";
 
 async function fetchData() {
-    const firstData = await fetch(firstUrl);
-    const geoData = await firstData.json();
+    try {
+        const firstData = await fetch(firstUrl);
+        const geoData = await firstData.json();
+        
+        const secondData = await fetch(secondUrl);
+        const positiveData = await secondData.json();
     
-    const secondData = await fetch(secondUrl);
-    const positiveData = await secondData.json();
-
-    const thirdData = await fetch(thirdUrl);
-    const negativeData = await thirdData.json();
-
-    createMap(geoData, positiveData, negativeData);
+        const thirdData = await fetch(thirdUrl);
+        const negativeData = await thirdData.json();
+    
+        createMap(geoData, positiveData, negativeData);
+    } catch (e) {
+        console.log(" Error occurred while fetching data: ", e);
+    }
 };
 
 // Function to initialize the map (from week 5 lecture videos)
