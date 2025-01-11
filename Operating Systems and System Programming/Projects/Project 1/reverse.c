@@ -113,7 +113,7 @@ void reverseFiles(FILE *input, FILE *output) {
     // Traverse the list
     Node *current = head;
     while (current) {
-        // If the output is stdout, print the line with a newline at the end
+        // If the output is stdout (=terminal), print the line with a newline at the end
         if (is_stdout) {
             fprintf(output, "%s\n", current->line);
         // If it's a file, print all lines except the last one with a newline
@@ -160,17 +160,18 @@ int main(int argc, char *argv[]){
         if (strcmp(argv[1], argv[2]) == 0) {
             errorHandler("Input and output file must differ");
         }
-        // Then we check if the files are hardlinked
-        if (areIdentical(argv[1], argv[2]) == 1) {
-            errorHandler("Input and output file must differ");
-        }
-        // Open output file if possible - otherwise set to stdout
+        // Open output file if possible
         output = fopen(argv[2], "w");
         if (!output) {
             fprintf(stderr, "error: cannot open file '%s'\n", argv[2]);
             exit(1);
         }
+        // Then we check if the files are hardlinked
+        if (areIdentical(argv[1], argv[2]) == 1) {
+            errorHandler("Input and output file must differ");
+        }
 
+    // In case of no output file, set to stdout
     } else {
         output = stdout;
     }
