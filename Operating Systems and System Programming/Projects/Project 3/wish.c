@@ -99,10 +99,12 @@ void executeParallel(char *line) {
     for (int i = 0; i < count; ++i) {
         pids[i] = fork(); // Create a new process
         if (pids[i] == 0) {
-            parseInput(parallel[i]); // Child process handles the command
-            exit(0); // Child process exits after handling the command
+             // Child process handles the command and exits afterwards
+            parseInput(parallel[i]);
+            exit(0);
         } else if (pids[i] < 0) {
-            errorHandler(); // Display error if fork fails
+            // Otherwise fork fails
+            errorHandler();
         }
     }
 
