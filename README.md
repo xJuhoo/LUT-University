@@ -10,4 +10,4 @@ The list of courses will be updated once I have the time for it.
 - All of the solutions provided I have invented and made myself.
 
 # Thank you!
-~ xJuhoo
+~ Juho
